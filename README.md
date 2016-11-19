@@ -24,7 +24,7 @@ algorithm may help.  Some excellent videos sources can be found here: http://peo
 
 Once you've downloaded the video simply run::
 ```
-   import eulerian_magnification as em
+   import eularian_magnification as em
 
    em.eulerian_magnification('media/face.mp4', image_processing='gaussian', pyramid_levels=3, freq_min=50.0 / 60.0, freq_max=1.0, amplification=50)
 
@@ -35,7 +35,7 @@ It can take a while to find the best parameters for a specific video. To help wi
 function::
 
 ```
-   import eulerian_magnification as em
+   import eularian_magnification as em
 
    em.show_frequencies('media/face.mp4')
 ```
